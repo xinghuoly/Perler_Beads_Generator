@@ -7,6 +7,7 @@ import { basicPalette, colorDistance, completePalette, getColor, nearestPaletteC
 import { composeVisibleCells, createLayer, createProject, loadDraft, normalizeProject, saveDraft, withCells, withLayers } from './project';
 import { findIsolatedBeads, summarizeUsage } from './usage';
 import type { ArrowKind, BackgroundMode, BeadProject, ClipboardPattern, CopyMode, GenerationStyle, MirrorDirection, MoveMode, RemoveMode, RightClickAction, ShapeFillMode, ShapeKind, TextDirection, ToolId } from './types';
+import logo from '../assets/images/logo.png'; // 静态导入
 
 const { useEffect, useMemo, useRef, useState } = React;
 
@@ -1370,7 +1371,7 @@ export default function App() {
 
       <header className="topbar">
         <div className="brand-lockup" aria-label="Perler Beads Generator">
-          <img className="logo-mark" src={require("/static/images/logo.png")} alt="logo" />
+          <img className="logo-mark" src={logo} alt="logo" />
           <div>
             <strong>{text.appName}</strong>
             <small>
