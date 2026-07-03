@@ -10,8 +10,9 @@ const html = `<!doctype html>
       name="description"
       content="A powerful Perler bead pattern editor for turning images into printable bead charts with MARD color matching, layers, 3D preview, and usage exports."
     />
-    <title>Perler Beads Generator</title>
+    <title>拼豆图纸生成器</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="/favicon.ico" />
     <script type="importmap">
       {
         "imports": {

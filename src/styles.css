@@ -244,7 +244,7 @@ button:focus-visible {
   border-radius: 8px;
   border: 1px solid var(--line-strong);
   background: linear-gradient(180deg, #fffaf0, #eadfcd);
-  padding: 4px;
+  padding: 1px;
 }
 
 .topbar-params,
