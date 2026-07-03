@@ -1370,12 +1370,7 @@ export default function App() {
 
       <header className="topbar">
         <div className="brand-lockup" aria-label="Perler Beads Generator">
-          <span className="logo-mark" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-            <span />
-          </span>
+          <img className="logo-mark" src={require("/static/images/logo.png")} alt="logo" />
           <div>
             <strong>{text.appName}</strong>
             <small>
@@ -1504,7 +1499,7 @@ export default function App() {
         <div className="topbar-right">
           <a
             className="github-link"
-            href="https://github.com/Jett-Wu/Perler_Beads_Generator"
+            href="https://github.com/xinghuoly/Perler_Beads_Generator"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"

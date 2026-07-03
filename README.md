@@ -1,6 +1,6 @@
 # Perler Beads Generator
 
-Live demo: https://jett-wu.github.io/Perler_Beads_Generator/
+Live demo: <https://perlerbeads.xhpost.dpdns.org/>
 
 一个强大的拼豆图纸编辑器，可以把图片转换成可打印的拼豆图纸，也可以像绘图软件一样手动编辑、分层创作、统计用量并导出高清图纸。
 
@@ -24,14 +24,14 @@ Live demo: https://jett-wu.github.io/Perler_Beads_Generator/
 
 ### 写实风格
 
-| 原图 | 工作台 | 导出图纸 |
-| --- | --- | --- |
+| 原图                                                             | 工作台                                                                | 导出图纸                                                              |
+| -------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------- |
 | <img src="docs/realistic-source.jpg" alt="写实风格原图" width="150"> | <img src="docs/realistic-workspace.png" alt="写实风格工作台" width="390"> | <img src="docs/realistic-pattern.png" alt="写实风格导出图纸" width="390"> |
 
 ### 卡通风格
 
-| 原图 | 工作台 | 导出图纸 |
-| --- | --- | --- |
+| 原图                                                           | 工作台                                                              | 导出图纸                                                            |
+| ------------------------------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------------------- |
 | <img src="docs/cartoon-source.png" alt="卡通风格原图" width="150"> | <img src="docs/cartoon-workspace.png" alt="卡通风格工作台" width="390"> | <img src="docs/cartoon-pattern.png" alt="卡通风格导出图纸" width="390"> |
 
 ### 空白工作区
@@ -135,11 +135,11 @@ tsconfig.build.json       # 构建输出配置
 - JSON 编辑记录用于恢复可编辑项目，不是通用图片格式。
 - 应用以桌面端使用为主，并针对不同屏幕比例、分辨率和浏览器缩放做了响应式布局处理。
 
----
+***
 
 # Perler Beads Generator
 
-Live demo: https://jett-wu.github.io/Perler_Beads_Generator/
+Live demo: <https://perlerbeads.xhpost.dpdns.org/>
 
 A powerful Perler bead pattern editor for turning images into printable bead charts, with manual editing, layers, reference tracing, usage counting, 3D preview, and high-resolution exports.
 
@@ -163,14 +163,14 @@ A powerful Perler bead pattern editor for turning images into printable bead cha
 
 ### Realistic Style
 
-| Source | Workspace | Exported Pattern |
-| --- | --- | --- |
+| Source                                                                         | Workspace                                                                            | Exported Pattern                                                                    |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
 | <img src="docs/realistic-source.jpg" alt="Realistic source image" width="150"> | <img src="docs/realistic-workspace.png" alt="Realistic style workspace" width="390"> | <img src="docs/realistic-pattern.png" alt="Realistic exported pattern" width="390"> |
 
 ### Cartoon Style
 
-| Source | Workspace | Exported Pattern |
-| --- | --- | --- |
+| Source                                                                     | Workspace                                                                        | Exported Pattern                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | <img src="docs/cartoon-source.png" alt="Cartoon source image" width="150"> | <img src="docs/cartoon-workspace.png" alt="Cartoon style workspace" width="390"> | <img src="docs/cartoon-pattern.png" alt="Cartoon exported pattern" width="390"> |
 
 ### Blank Workspace
@@ -273,3 +273,4 @@ tsconfig.build.json       # Build output config
 - Image conversion samples the image area covered by each bead cell instead of reading only a single pixel.
 - JSON edit records are for restoring editable projects, not for general image exchange.
 - The app is desktop-first and includes responsive layout handling for different screen ratios, resolutions, and browser zoom levels.
+
